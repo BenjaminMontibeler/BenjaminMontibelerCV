@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/BenjaminMontibeler/BenjaminMontibelerCV/static/css/main.d57717a5.css",
+    "main.js": "/BenjaminMontibeler/BenjaminMontibelerCV/static/js/main.16026f67.js",
+    "static/js/787.a71561b8.chunk.js": "/BenjaminMontibeler/BenjaminMontibelerCV/static/js/787.a71561b8.chunk.js",
+    "static/media/video.mkv": "/BenjaminMontibeler/BenjaminMontibelerCV/static/media/video.fc907a36c1b44b70a39f.mkv",
+    "static/media/Slika.jpeg": "/BenjaminMontibeler/BenjaminMontibelerCV/static/media/Slika.9e861531c819459c6eb4.jpeg",
+    "static/media/Slika2.jpeg": "/BenjaminMontibeler/BenjaminMontibelerCV/static/media/Slika2.cd850db293374c9ad8d2.jpeg",
+    "static/media/hajp2.jpeg": "/BenjaminMontibeler/BenjaminMontibelerCV/static/media/hajp2.2c509940fe0608d77977.jpeg",
+    "static/media/hajp3.jpeg": "/BenjaminMontibeler/BenjaminMontibelerCV/static/media/hajp3.ee5981ceb5e391d102be.jpeg",
+    "static/media/hajp1.jpeg": "/BenjaminMontibeler/BenjaminMontibelerCV/static/media/hajp1.57738a0579a4de1720c8.jpeg",
+    "index.html": "/BenjaminMontibeler/BenjaminMontibelerCV/index.html",
+    "main.d57717a5.css.map": "/BenjaminMontibeler/BenjaminMontibelerCV/static/css/main.d57717a5.css.map",
+    "main.16026f67.js.map": "/BenjaminMontibeler/BenjaminMontibelerCV/static/js/main.16026f67.js.map",
+    "787.a71561b8.chunk.js.map": "/BenjaminMontibeler/BenjaminMontibelerCV/static/js/787.a71561b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d57717a5.css",
+    "static/js/main.16026f67.js"
+  ]
+}
