@@ -68,7 +68,6 @@
     height: 100%;
     background-color: rgb(117, 117, 117);
     padding: 20px;
-    text-align: justify;
 }
 
 .about-me h3{
@@ -118,14 +117,13 @@
 
 .projects{
     padding: 20px;
-    text-align: justify;
 }
 
 .projects h3{
     padding-bottom: 30px;
 }
 
-.projects video{
+.projects img{
     display: block;
     max-height: 30vw;
     width: auto;
@@ -137,7 +135,6 @@
     height: 100%;
     padding: 20px;
     background-color: rgb(117, 117, 117);
-    text-align: justify;
 }
 
 .hobbies h3{

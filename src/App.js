@@ -27,7 +27,7 @@ function App() {
           Hi! <br />
           I am Benjamin Montibeler and am a student at Josip Juraj Strossmayer University in Osijek. I am about to graduate undergraduate
           professional study of computer science at FERIT. Throughout these three years of studying, I’ve touched upon many branches of
-          programming, but user interface design and frontend development stuck out the most to me. As i am about to graduate, I’ve decided
+          programming, but user interface design and frontend development stuck out the most to me. As I am about to graduate, I’ve decided
           to dedicate my career to excatly that. I consider myself a very creative, ambitious, and innovative, hard-working person, which is why
           I’m best suited for such a job. I look forward to participating in a dynamic work environment where I will gain teamwork experience,
           that will enable me to improve my analytical and problem-solving skills.
@@ -78,7 +78,8 @@ function App() {
         <p>The theme of my final thesis was to construct a website for a dance studio. The project was built with React JS, Bootstrap, JavaScript,
           HTML, and CSS. The website allows participants to register, and then enroll in certain dance programs, as well as access to all the
           necessary information about the studio. </p>
-        <video src={require('./images/video.mkv')} controls autoplay loop muted className='img-fluid mx-auto' />
+        {/* <video src={require('./images/video.mkv')} controls autoplay loop muted className='img-fluid mx-auto' /> */}
+        <img src={require('./images/projekt.gif')} className='img-fluid mx-auto' />
       </div>
 
       <div className='hobbies row'>
