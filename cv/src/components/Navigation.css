@@ -1,0 +1,23 @@
+.navbar {
+    height: 4rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: end;
+    background-color: rgb(135, 135, 135);
+    width: 100%;
+}
+
+.navbar-collapse{
+    background-color: rgb(135, 135, 135);
+    margin-top: 5px;
+    width: 100%;
+}
+
+.navbar a{
+    color: rgb(59, 59, 59);
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1rem;
+}

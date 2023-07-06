@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(68, 189, 102);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(52, 151, 67);
+}
+
+.App {
+    background-color: rgb(135, 135, 135);
+    color: black;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+.image {
+    border-radius: 50%;
+    border: 1px solid white;
+    display: block;
+    max-height: 30vw;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 0vw;
+    left: 0vw;
+}
+
+.image-2{
+    border-radius: 50%;
+    border: 1px solid white;
+    display: block;
+    max-height: 20vw;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 15vw;
+    right: 28vw;
+}
+
+.main-container{
+    padding-top: 160px;
+    padding-bottom: 100px;
+}
+
+.main-container h1{
+    color: rgb(45, 45, 45);
+}
+
+.main-container h3{
+    color: rgb(70, 70, 70);
+}
+
+.about-me{
+    height: 450px;
+    background-color: rgb(117, 117, 117);
+    padding: 20px;
+    text-align: justify;
+}
+
+.education{
+    height: 450px;
+    padding: 20px;
+}
+
+.education ul{
+    list-style-type: none;
+}
+
+.education a{
+    text-decoration: none;
+    color: rgb(27, 84, 36);
+}
+
+.education a:hover{
+    color: rgb(38, 114, 51);
+}
+
+.skills{
+    height: 450px;
+    padding: 20px;
+    background-color: rgb(117, 117, 117);
+}
+
+.skills ul{
+    list-style-type: none;
+}
+
+.projects{
+    padding: 20px;
+    text-align: justify;
+}
+
+.projects h3{
+    padding-bottom: 20px;
+}
+
+.projects video{
+    display: block;
+    max-height: 30vw;
+    width: auto;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.hobbies{
+    height: 550px;
+    padding: 20px;
+    background-color: rgb(117, 117, 117);
+    text-align: justify;
+}
+
+.hobbies img{
+    display: block;
+    max-height: 20vw;
+    width: auto;
+    height: auto;
+}
+
+.hobbies a{
+    text-decoration: none;
+    color: rgb(27, 84, 36);
+}
+
+.hobbies a:hover{
+    color: rgb(38, 114, 51);
+}
+
+.information{
+    height: 400px;
+    padding: 20px;
+}
+
+.information ul{
+    list-style-type: none;
+    padding-top: 20px;
+    height: 100%;
+    padding-bottom: 30px;
+}
+
+.information ul li{
+    padding-top: 30px;
+}
+
+.information a{
+    text-decoration: none;
+    color: rgb(27, 84, 36);
+}
+
+.information a:hover{
+    color: rgb(38, 114, 51);
+}
