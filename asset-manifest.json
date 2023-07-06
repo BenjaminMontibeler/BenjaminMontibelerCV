@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BenjaminMontibelerCV/static/css/main.d57717a5.css",
-    "main.js": "/BenjaminMontibelerCV/static/js/main.25ba92ba.js",
+    "main.css": "/BenjaminMontibelerCV/static/css/main.2a9e4007.css",
+    "main.js": "/BenjaminMontibelerCV/static/js/main.c086d364.js",
     "static/js/787.a71561b8.chunk.js": "/BenjaminMontibelerCV/static/js/787.a71561b8.chunk.js",
     "static/media/video.mkv": "/BenjaminMontibelerCV/static/media/video.fc907a36c1b44b70a39f.mkv",
     "static/media/Slika.jpeg": "/BenjaminMontibelerCV/static/media/Slika.9e861531c819459c6eb4.jpeg",
@@ -10,12 +10,12 @@
     "static/media/hajp3.jpeg": "/BenjaminMontibelerCV/static/media/hajp3.ee5981ceb5e391d102be.jpeg",
     "static/media/hajp1.jpeg": "/BenjaminMontibelerCV/static/media/hajp1.57738a0579a4de1720c8.jpeg",
     "index.html": "/BenjaminMontibelerCV/index.html",
-    "main.d57717a5.css.map": "/BenjaminMontibelerCV/static/css/main.d57717a5.css.map",
-    "main.25ba92ba.js.map": "/BenjaminMontibelerCV/static/js/main.25ba92ba.js.map",
+    "main.2a9e4007.css.map": "/BenjaminMontibelerCV/static/css/main.2a9e4007.css.map",
+    "main.c086d364.js.map": "/BenjaminMontibelerCV/static/js/main.c086d364.js.map",
     "787.a71561b8.chunk.js.map": "/BenjaminMontibelerCV/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d57717a5.css",
-    "static/js/main.25ba92ba.js"
+    "static/css/main.2a9e4007.css",
+    "static/js/main.c086d364.js"
   ]
 }
