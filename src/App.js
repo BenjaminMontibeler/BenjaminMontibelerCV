@@ -78,7 +78,7 @@ function App() {
         <p>The theme of my final thesis was to construct a website for a dance studio. The project was built with React JS, Bootstrap, JavaScript,
           HTML, and CSS. The website allows participants to register, and then enroll in certain dance programs, as well as access to all the
           necessary information about the studio. </p>
-        <video src={require('./images/video.mkv')} loop className='img-fluid mx-auto' />
+        <video src={require('./images/video.mkv')} controls autoplay loop muted className='img-fluid mx-auto' />
       </div>
 
       <div className='hobbies row'>
