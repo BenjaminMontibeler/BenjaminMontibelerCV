@@ -38,12 +38,12 @@ function App() {
         <h3 className='my-auto' data-aos="fade-down" data-aos-offset="200" data-aos-once="true">About me</h3>
         <p data-aos="fade-right" data-aos-offset="200" data-aos-once="true">
           Hi! <br />
-          I am Benjamin Montibeler and am a student at Josip Juraj Strossmayer University in Osijek. I am about to graduate undergraduate
-          professional study of computer science at FERIT. Throughout these three years of studying, I’ve touched upon many branches of
+          I am Benjamin Montibeler, a student at Josip Juraj Strossmayer University in Osijek. I am about to graduate undergraduate
+          professional study of computer science at FERIT. Throughout these three years of studying, I’ve come across many branches of
           programming, but user interface design and frontend development stuck out the most to me. As I am about to graduate, I’ve decided
-          to dedicate my career to excatly that. I consider myself a very creative, ambitious, and innovative, hard-working person, which is why
-          I’m best suited for such a job. I look forward to participating in a dynamic work environment where I will gain teamwork experience,
-          that will enable me to improve my analytical and problem-solving skills.
+          to dedicate my career to excatly that. I consider myself a very creative, ambitious, innovative and hard-working person, which is why
+          I would consider myself suited for such a job. I'm looking forward to participating in a dynamic work environment where I will gain 
+          teamwork experience that will enable me to improve my analytical and problem-solving skills.
         </p>
       </div>
 
@@ -75,13 +75,13 @@ function App() {
           </li>
           <li>
             <h5>Other language(s)</h5>
-            <p>English - excellent listening, reading, writing and communitacion skills</p>
+            <p>English - excellent listening, reading, writing and communitacion skills (C1)</p>
           </li>
         </ul>
         <br />
         <div data-aos="fade-right" data-aos-offset="200" data-aos-once="true">
           <h4>Digital skills</h4>
-          <p>I possess starter knowledge in React, JS, HTML, CSS, GitHub, Python, and basics in Kotlin, Swift, SQL, Blender modeling,
+          <p>I have beginner to intermediate knowledge in React, JS, HTML, CSS, GitHub, Python, and basics in Kotlin, Swift, SQL, Blender modeling,
             Autocad, Lunacy and Inkspace. </p>
         </div>
       </div>
@@ -98,7 +98,7 @@ function App() {
       <div className='hobbies row'>
         <h3 className='my-auto' data-aos="fade-down" data-aos-offset="200" data-aos-once="true">Hobbies</h3>
         <p data-aos="fade-right" data-aos-offset="200" data-aos-once="true">Besides being a computer engineer, I am also a dancer at a local dance studio <a href='https://ps-shine.com/'>Shine</a>. I dance Hip-Hop, Vogue and Contemporary. We've done
-          many gigs as a group, and participated, as well as won, numerous competitions. Two of my dance colleague and I organize a monthly dance
+          many gigs as a group and participated, as well as won, numerous competitions. Two of my dance colleague and I organize a monthly dance
           party for students called <a href='https://www.instagram.com/hajpos/'>Hajp</a>.
         </p>
         <div className='justify-content-center row w-100' data-aos="fade-up" data-aos-offset="200" data-aos-once="true">
