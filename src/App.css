@@ -19,6 +19,7 @@
 .App {
     background-color: rgb(135, 135, 135);
     color: black;
+    overflow: hidden;
 }
 
 .parent {

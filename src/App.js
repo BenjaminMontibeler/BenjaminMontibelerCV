@@ -1,29 +1,42 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React from 'react';
+import React, {useEffect} from 'react';
 import Navigation from './components/Navigation';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+
+  useEffect(() => {
+    const initAOS = setTimeout(() => {
+      AOS.init({
+        duration: 1000
+      });
+    }, 1000);
+
+    return () => clearTimeout(initAOS);
+  }, []);
+
   return (
     <div className='App container-fluid'>
       <Navigation />
       <div className='main-container row'>
-        <div className='col my-auto text-center'>
+        <div className='col my-auto text-center' data-aos="fade-left" data-aos-offset="200" data-aos-once="true">
           <h1>Benjamin Montibeler</h1>
           <br />
           <h3>Computer Engineering Student </h3>
         </div>
         <div className='col my-auto d-flex justify-content-center'>
           <div className='parent container-fluid d-flex justify-content-center'>
-            <img src={require('./images/Slika.jpeg')} className='img-fluid image' />
-            <img src={require('./images/Slika2.jpeg')} className='img-fluid image-2' />
+            <img src={require('./images/Slika.jpeg')} className='img-fluid image' data-aos="fade-down" data-aos-offset="200" data-aos-once="true" />
+            <img src={require('./images/Slika2.jpeg')} className='img-fluid image-2' data-aos="fade-up" data-aos-offset="200" data-aos-once="true" />
           </div>
         </div>
       </div>
 
       <div className='about-me row' id='about'>
-        <h3 className='my-auto'>About me</h3>
-        <p>
+        <h3 className='my-auto' data-aos="fade-down" data-aos-offset="200" data-aos-once="true">About me</h3>
+        <p data-aos="fade-right" data-aos-offset="200" data-aos-once="true">
           Hi! <br />
           I am Benjamin Montibeler and am a student at Josip Juraj Strossmayer University in Osijek. I am about to graduate undergraduate
           professional study of computer science at FERIT. Throughout these three years of studying, I’ve touched upon many branches of
@@ -35,8 +48,8 @@ function App() {
       </div>
 
       <div className='education row' id='education'>
-        <h3 className='my-auto'>Education</h3>
-        <ul className='my-auto'>
+        <h3 className='my-auto' data-aos="fade-down" data-aos-offset="200" data-aos-once="true">Education</h3>
+        <ul className='my-auto' data-aos="fade-right" data-aos-offset="200" data-aos-once="true">
           <li>
             <h5>High School</h5>
             <h6><a href='https://gimnazijavk.hr/'>Gimnasium Matija Antun Reljković - Science And Mathematics</a></h6>
@@ -53,9 +66,9 @@ function App() {
       </div>
 
       <div className='skills row' id='skills'>
-        <h3 className='my-auto'>Skills</h3>
-        <h4 className='my-auto'>Language skills</h4>
-        <ul className='my-auto'>
+        <h3 className='my-auto' data-aos="fade-down" data-aos-offset="200" data-aos-once="true">Skills</h3>
+        <h4 className='my-auto' data-aos="fade-right" data-aos-offset="200" data-aos-once="true">Language skills</h4>
+        <ul className='my-auto' data-aos="fade-right" data-aos-offset="200" data-aos-once="true">
           <li>
             <h5>Mother tounge</h5>
             <p>Croatian</p>
@@ -66,7 +79,7 @@ function App() {
           </li>
         </ul>
         <br />
-        <div>
+        <div data-aos="fade-right" data-aos-offset="200" data-aos-once="true">
           <h4>Digital skills</h4>
           <p>I possess starter knowledge in React, JS, HTML, CSS, GitHub, Python, and basics in Kotlin, Swift, SQL, Blender modeling,
             Autocad, Lunacy and Inkspace. </p>
@@ -74,21 +87,21 @@ function App() {
       </div>
 
       <div className='projects row' id='projects'>
-        <h3 className='my-auto'>Projects</h3>
-        <p>The theme of my final thesis was to construct a website for a dance studio. The project was built with React JS, Bootstrap, JavaScript,
+        <h3 className='my-auto' data-aos="fade-down" data-aos-offset="200" data-aos-once="true">Projects</h3>
+        <p data-aos="fade-right" data-aos-offset="200" data-aos-once="true">The theme of my final thesis was to construct a website for a dance studio. The project was built with React JS, Bootstrap, JavaScript,
           HTML, and CSS. The website allows participants to register, and then enroll in certain dance programs, as well as access to all the
           necessary information about the studio. </p>
         {/* <video src={require('./images/video.mkv')} controls autoplay loop muted className='img-fluid mx-auto' /> */}
-        <img src={require('./images/projekt.gif')} className='img-fluid mx-auto' />
+        <img src={require('./images/projekt.gif')} className='img-fluid mx-auto' data-aos="fade-right" data-aos-offset="200" data-aos-once="true" />
       </div>
 
       <div className='hobbies row'>
-        <h3 className='my-auto'>Hobbies</h3>
-        <p>Besides being a computer engineer, I am also a dancer at a local dance studio <a href='https://ps-shine.com/'>Shine</a>. I dance Hip-Hop, Vogue and Contemporary. We've done
+        <h3 className='my-auto' data-aos="fade-down" data-aos-offset="200" data-aos-once="true">Hobbies</h3>
+        <p data-aos="fade-right" data-aos-offset="200" data-aos-once="true">Besides being a computer engineer, I am also a dancer at a local dance studio <a href='https://ps-shine.com/'>Shine</a>. I dance Hip-Hop, Vogue and Contemporary. We've done
           many gigs as a group, and participated, as well as won, numerous competitions. Two of my dance colleague and I organize a monthly dance
           party for students called <a href='https://www.instagram.com/hajpos/'>Hajp</a>.
         </p>
-        <div className='justify-content-center row w-100'>
+        <div className='justify-content-center row w-100' data-aos="fade-up" data-aos-offset="200" data-aos-once="true">
           <img src={require('./images/hajp1.jpeg')} className='img-fluid' />
           <img src={require('./images/hajp2.jpeg')} className='img-fluid' />
           <img src={require('./images/hajp3.jpeg')} className='img-fluid' />
@@ -96,9 +109,9 @@ function App() {
       </div>
 
       <div className='information row'>
-        <h3 className='my-auto'>Information</h3>
+        <h3 className='my-auto' data-aos="fade-down" data-aos-offset="200" data-aos-once="true">Information</h3>
 
-        <div className='row w-100 mx-auto text-center justify-content-evenly'>
+        <div className='row w-100 mx-auto text-center justify-content-evenly' data-aos="fade-right" data-aos-offset="200" data-aos-once="true">
           <div className='col d-flex justify-content-evenly'>
             <ul>
               <li>
