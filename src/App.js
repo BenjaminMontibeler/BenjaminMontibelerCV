@@ -17,6 +17,10 @@ function App() {
     return () => clearTimeout(initAOS);
   }, []);
 
+  useEffect(() => {
+    document.title = 'Benjamin Montibeler';
+  }, []);
+
   return (
     <div className='App container-fluid'>
       <Navigation />
