@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import Navigation from './components/Navigation';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -42,12 +42,12 @@ function App() {
         <h3 className='my-auto' data-aos="fade-down" data-aos-offset="200" data-aos-once="true">About me</h3>
         <p data-aos="fade-right" data-aos-offset="200" data-aos-once="true">
           Hi! <br />
-          I am Benjamin Montibeler, a student at Josip Juraj Strossmayer University in Osijek. I am about to graduate undergraduate
-          professional study of computer science at FERIT. Throughout these three years of studying, I’ve come across many branches of
-          programming, but user interface design and frontend development stuck out the most to me. As I am about to graduate, I’ve decided
-          to dedicate my career to excatly that. I consider myself a very creative, ambitious, innovative and hard-working person, which is why
-          I would consider myself suited for such a job. I'm looking forward to participating in a dynamic work environment where I will gain 
-          teamwork experience that will enable me to improve my analytical and problem-solving skills.
+          I am Benjamin Montibeler, a student at Josip Juraj Strossmayer University in Osijek. I am about to graduate undergraduate professional
+          study of computer science at FERIT. Throughout the last three years of studying, I’ve come across many branches of programming,
+          but user interface design and front-end development stuck out the most to me. As I am about to graduate, I’ve decided to dedicate
+          my career to exactly that. I consider myself a very creative, ambitious, innovative and hard-working person, which is why I would
+          consider myself suited for such a job. I'm looking forward to participating in a dynamic work environment where I will gain teamwork
+          experience that will enable me to improve my analytical and problem-solving skills.
         </p>
       </div>
 
